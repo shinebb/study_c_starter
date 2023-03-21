@@ -12,5 +12,14 @@ int main(void)
 	x -= 50; //x = x - 50;
 	printf("현재 x의 값은 %d입니다.\n", x);
 	
+	x *= 50; //x = x * 50;
+	printf("현재 x의 값은 %d입니다.\n", x);
+	
+	x /= 50; //x = x / 50;
+	printf("현재 x의 값은 %d입니다.\n", x);
+	
+	x %= 50; //x = x % 50;
+	printf("현재 x의 값은 %d입니다.\n", x);
+	
 	return 0; 
 }
